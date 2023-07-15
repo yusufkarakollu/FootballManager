@@ -12,6 +12,10 @@
 
   <title>Football Manager</title>
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+
 
 
 </head>
@@ -45,20 +49,15 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Takımlar</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
-              Dropdown
+              Oyuncular
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Wonderkids</a></li>
             </ul>
           </li>
         </ul>
@@ -71,57 +70,58 @@
   <!--navbar end -->
 
   <!-- solda oyuncu arama kısmı -->
+  <h4 style="margin-left: 18px; margin-top: 8px;">Player Search</h4>
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-1">
         <div>
-          <select class="form-select ms-2 mt-3" aria-label="Default select example">
-            <option selected>Position</option>
-            <option value="1">LW</option>
-            <option value="2">ST</option>
-            <option value="3">RW</option>
-            <option value="4">LF</option>
-            <option value="5">CF</option>
-            <option value="6">RF</option>
-            <option value="7">CAM</option>
-            <option value="8">LM</option>
-            <option value="9">CM</option>
-            <option value="10">RM</option>
-            <option value="11">CDM</option>
-            <option value="12">LWB</option>
-            <option value="13">LB</option>
-            <option value="14">CB</option>
-            <option value="15">RB</option>
-            <option value="16">RWB</option>
-            <option value="17">GK</option>
+          <select class="form-select ms-2 mt-3" style="background-color: crimson;" aria-label="Default select example">
+            <option selected style="color: white;">Position</option>
+            <option value="1" style="color: white;">LW</option>
+            <option value="2" style="color: white;">ST</option>
+            <option value="3" style="color: white;">RW</option>
+            <option value="4" style="color: white;">LF</option>
+            <option value="5" style="color: white;">CF</option>
+            <option value="6" style="color: white;">RF</option>
+            <option value="7" style="color: white;">CAM</option>
+            <option value="8" style="color: white;">LM</option>
+            <option value="9" style="color: white;">CM</option>
+            <option value="10" style="color: white;">RM</option>
+            <option value="11" style="color: white;">CDM</option>
+            <option value="12" style="color: white;">LWB</option>
+            <option value="13" style="color: white;">LB</option>
+            <option value="14" style="color: white;">CB</option>
+            <option value="15" style="color: white;">RB</option>
+            <option value="16" style="color: white;">RWB</option>
+            <option value="17" style="color: white;">GK</option>
           </select>
         </div>
-        <select class="form-select ms-2 mt-3" aria-label="Default select example">
-          <option selected>Leagues</option>
-          <option value="1">Premier League</option>
-          <option value="2">La Liga</option>
-          <option value="3">Serie A</option>
-          <option value="4">Bundesliga</option>
-          <option value="5">Ligue 1</option>
-          <option value="6">Portugal Liga NOS</option>
-          <option value="7">Brazil Serie A</option>
-          <option value="8">Russia Premier Liga</option>
-          <option value="9">Eredivisie</option>
-          <option value="10">MLS</option>
-          <option value="11">Belgium Pro League</option>
-          <option value="12">Türkiye Super League</option>
-          <option value="13">China Super League</option>
-          <option value="14">Ukraine Premier League</option>
-          <option value="15">Austria Bundesliga</option>
-          <option value="16">Saudi Arabia Professional League</option>
-          <option value="17">Japan J1 League</option>
-          <option value="18">Greece Super League 1</option>
-          <option value="19">Colombia Liga DIMAYOR I</option>
-          <option value="20">Scotland Premiership</option>
-          <option value="21">Czech Republic Fortuna Liga</option>
-          <option value="22">Switzerland Super League</option>
-          <option value="23">Serbia Super liga</option>
-          <option value="24">Denmark SuperLiga  </option>
+        <select class="form-select ms-2 mt-3" style="background-color: crimson;" aria-label="Default select example">
+          <option selected style="color: white;">Leagues</option>
+          <option value="1" style="color: white;">Premier League</option>
+          <option value="2" style="color: white;">La Liga</option>
+          <option value="3" style="color: white;">Serie A</option>
+          <option value="4" style="color: white;">Bundesliga</option>
+          <option value="5" style="color: white;">Ligue 1</option>
+          <option value="6" style="color: white;">Portugal Liga NOS</option>
+          <option value="7" style="color: white;">Brazil Serie A</option>
+          <option value="8" style="color: white;">Russia Premier Liga</option>
+          <option value="9" style="color: white;">Eredivisie</option>
+          <option value="10" style="color: white;">MLS</option>
+          <option value="11" style="color: white;">Belgium Pro League</option>
+          <option value="12" style="color: white;">Türkiye Super League</option>
+          <option value="13" style="color: white;">China Super League</option>
+          <option value="14" style="color: white;">Ukraine Premier League</option>
+          <option value="15" style="color: white;">Austria Bundesliga</option>
+          <option value="16" style="color: white;">Saudi Arabia Professional League</option>
+          <option value="17" style="color: white;">Japan J1 League</option>
+          <option value="18" style="color: white;">Greece Super League 1</option>
+          <option value="19" style="color: white;">Colombia Liga DIMAYOR I</option>
+          <option value="20" style="color: white;">Scotland Premiership</option>
+          <option value="21" style="color: white;">Czech Republic Fortuna Liga</option>
+          <option value="22" style="color: white;">Switzerland Super League</option>
+          <option value="23" style="color: white;">Serbia Super liga</option>
+          <option value="24" style="color: white;">Denmark SuperLiga </option>
         </select>
       </div>
       <div class="col-md-11">
@@ -129,8 +129,50 @@
     </div>
   </div>
   <!-- solda oyuncu arama kısmı end-->
-
   <!-- solda takım arama kısmı -->
+  <h4 style="margin-left: 18px; margin-top: 15px;">Team Search</h4>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-1">
+        <div>
+          <select class="form-select ms-2 mt-3" style="background-color: crimson;" aria-label="Default select example">
+            <option selected style="color: white;">Training Facilities (Min)</option>
+            <option value="1" style="color: white;">Level 1</option>
+            <option value="1" style="color: white;">Level 2</option>
+            <option value="1" style="color: white;">Level 3</option>
+            <option value="1" style="color: white;">Level 4</option>
+            <option value="1" style="color: white;">Level 5</option>
+          </select>
+        </div>
+        <select class="form-select ms-2 mt-3" style="background-color: crimson;" aria-label="Default select example">
+          <option selected style="color: white;">İnfrastructure (Min)</option>
+          <option value="1" style="color: white;">Level 1</option>
+          <option value="1" style="color: white;">Level 2</option>
+          <option value="1" style="color: white;">Level 3</option>
+          <option value="1" style="color: white;">Level 4</option>
+          <option value="1" style="color: white;">Level 5</option>
+        </select>
+        <select class="form-select ms-2 mt-3" style="background-color: crimson;" aria-label="Default select example">
+          <option selected style="color: white;">Player Recruitment System (Min)</option>
+          <option value="1" style="color: white;">Level 1</option>
+          <option value="1" style="color: white;">Level 2</option>
+          <option value="1" style="color: white;">Level 3</option>
+          <option value="1" style="color: white;">Level 4</option>
+          <option value="1" style="color: white;">Level 5</option>
+        </select>
+        <select class="form-select ms-2 mt-3" style="background-color: crimson;" aria-label="Default select example">
+          <option selected style="color: white;">Infrastructure Quality (Min)</option>
+          <option value="1" style="color: white;">Level 1</option>
+          <option value="1" style="color: white;">Level 2</option>
+          <option value="1" style="color: white;">Level 3</option>
+          <option value="1" style="color: white;">Level 4</option>
+          <option value="1" style="color: white;">Level 5</option>
+        </select>
+      </div>
+      <div class="col-md-11">
+      </div>
+    </div>
+  </div>
   <!-- solda takım arama kısmı end-->
 
   <!-- sağda oyuncuya dair her şey -->
