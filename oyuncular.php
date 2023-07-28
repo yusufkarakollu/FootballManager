@@ -6,15 +6,16 @@
     <title>FmHouse</title>
 </head>
 <body>
+    
+<?php
+include "./head.php"
+?>
+<?php
+include "./nav.php"
+?>
+<?php
+include "./oyunculistesi.php"
+?>
 
-<?php
-include "./includes/head.php"
-?>
-<?php
-include "./includes/nav.php"
-?>
-<?php
-include "./includes/leftside.php"
-?>
 </body>
 </html>

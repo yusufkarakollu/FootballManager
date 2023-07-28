@@ -6,6 +6,8 @@
     <title>FmHouse</title>
 </head>
 <body>
+    
+
 
 <?php
 include "./includes/head.php"
@@ -16,5 +18,5 @@ include "./includes/nav.php"
 <?php
 include "./includes/leftside.php"
 ?>
+
 </body>
-</html>
