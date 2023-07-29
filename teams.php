@@ -16,7 +16,7 @@ include "./includes/head.php"
 include "./includes/nav.php"
 ?>
 <?php
-include "./includes/leftside.php"
+include "./includes/teamslist.php"
 ?>
 
 </body>

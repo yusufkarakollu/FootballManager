@@ -8,13 +8,13 @@
 <body>
     
 <?php
-include "./head.php"
+include "./includes/head.php"
 ?>
 <?php
-include "./nav.php"
+include "./includes/nav.php"
 ?>
 <?php
-include "./oyunculistesi.php"
+include "./includes/oyunculistesi.php"
 ?>
 
 </body>

@@ -102,11 +102,11 @@ include "./head.php"
       </div>
       <div class="col-md-8 offset-md-1 mt-5">
         <div class="row">
-            <a href="/oyuncubilgisayfa.php">
+            <a href="oyuncubilgiler.php">
           <div class="card">
             <div class="col-md-2">
-              <img src="/img/cristiano-ronaldo-al-nassr-presentation.jpg" width="50" alt="Yüklenemedi">
-              <h6 class="d-inline ms-2">Cristiano Ronaldo</h6>
+              <img src="/img/Manchester_City.png" width="50" alt="Yüklenemedi">
+              <h6 class="d-inline ms-2">Manchester City</h6>
             </div>
           </div>
           </a>

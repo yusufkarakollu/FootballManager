@@ -11,13 +11,13 @@ include "./head.php"
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/index.php">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/takımlar.php">Teams</a>
+                    <a class="nav-link" href="teams.php">Teams</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/oyuncular.php">Players</a>
+                    <a class="nav-link" href="oyuncular.php">Players</a>
                 </li>
             </ul>
             <form class="d-flex">
