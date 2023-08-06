@@ -9,18 +9,16 @@
 
 <body>
 
-<!-- <input type="text" id="searchInput" placeholder="Ülke ara...">
-    <div id="dataContainer">
-         JSON verisi buraya eklenecek 
-    </div> -->
+ 
     
-    <script src="app.js"></script>
     <?php
     include "./includes/head.php"
     ?>
     <?php
     include "./includes/nav.php"
     ?>
+    <div id="dataContainer">
+    </div> 
     <?php
     include "./includes/leftside.php"
     ?>
@@ -29,7 +27,7 @@
 
     <br>
     <br>
-    
+    <script src="app.js"></script>
 </body>
 
 </html>

@@ -21,7 +21,7 @@ include "./head.php"
                 </li>
             </ul>
             <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             </form>
         </div>
     </div>
