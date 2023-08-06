@@ -834,7 +834,7 @@ function renderData(searchTerm) {
             countryDiv.innerHTML = `
                <div class="p-2 border mb-2"> 
                <h2>${item.name}</h2>
-               <img width="50" src="${item.image_path}" alt="${item.name} Flag" />
+               <img class="border" width="50" src="${item.image_path}" alt="${item.name} Flag" />
                <p>Continent: ${item.extra.continent}</p>
                <p>Sub Region: ${item.extra.sub_region}</p>
                </div>

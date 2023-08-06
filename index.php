@@ -17,14 +17,11 @@
     <?php
     include "./includes/nav.php"
     ?>
-    <div id="dataContainer">
-    </div> 
     <?php
     include "./includes/leftside.php"
     ?>
     <br>
     <br>
-
     <br>
     <br>
     <script src="app.js"></script>
