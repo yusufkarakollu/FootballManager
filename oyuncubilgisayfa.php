@@ -13,9 +13,7 @@ include "./includes/head.php"
 <?php
 include "./includes/nav.php"
 ?>
-<?php
-include "./includes/leftside.php"
-?>
+
 <?php
 include "./includes/oyuncubilgiler.php"
 ?>

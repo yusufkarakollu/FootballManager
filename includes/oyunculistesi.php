@@ -3,10 +3,10 @@ include "./head.php"
 ?>
 
 <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-2">
-        <h4>Player Search</h4>
-        <div>
+  <div class="row">
+    <div class="col-md-2">
+      <h4>Player Search</h4>
+      <div>
         <select class="dropdownMenu rounded ms-2 mt-3" style="background-color: crimson; height:38px; width:296px;" aria-label="Default select example">
           <option selected class="fw-bold" style="color: white;">Position</option>
           <option value="LW" class="fw-bold" style="color: white;">LW</option>
@@ -99,18 +99,18 @@ include "./head.php"
           <option value="5" class="fw-bold" style="color: white;">Level 5</option>
         </select>
       </div>
-      </div>
-      <div class="col-md-8 offset-md-1 mt-5">
-        <div class="row">
-            <a href="/oyuncubilgisayfa.php">
-          <div class="card">
-            <div class="col-md-2">
+    </div>
+    <div class="col-md-8 offset-md-1 mt-5">
+      <div class="row">
+        <div class="card">
+          <div class="col-md-2">
+            <a href="oyuncubilgisayfa.php">
               <img src="/img/cristiano-ronaldo-al-nassr-presentation.jpg" width="50" alt="Yüklenemedi">
               <h6 class="d-inline ms-2">Cristiano Ronaldo</h6>
-            </div>
+            </a>
           </div>
-          </a>
         </div>
       </div>
     </div>
   </div>
+</div>
