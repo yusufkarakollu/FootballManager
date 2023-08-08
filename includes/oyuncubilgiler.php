@@ -42,13 +42,22 @@ include "./head.php"
   <div class="card ms-5 shadow p-3 mb-5 bg-body rounded">
     <div class="col-md-10">
       <div class="row">
-        <div class="col-md-3 ms-4">
-          <acronym class="ms-2" title="How well a player is at taking corners">Corners</acronym>
+        <div class="col-md-4 ms-4">
+            <acronym class="ms-2" title="How well a player is at taking corners">Corners</acronym>
+            <div class="stat-value-0-10">
+              <p>8</p>
+            </div>
           <hr>
           <acronym class="ms-2" title="How well a player can run with the ball in his feet">Dribbling</acronym>
+          <div class="stat-value-11-15">
+            <p>15</p>
+          </div>
         </div>
-        <div class="col-md-3 ms-4">
+        <div class="col-md-4 ms-4">
           <acronym class="ms-2" title="How well a player is at taking corners">Corners</acronym>
+          <div class="stat-value-16-20">
+            <p>20</p>
+          </div>
           <hr>
           <acronym class="ms-2" title="How well a player can run with the ball in his feet">Dribbling</acronym>
         </div>
