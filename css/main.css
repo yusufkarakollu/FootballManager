@@ -4,14 +4,16 @@
     font-size: large;
     font-weight: 900px;
     position: absolute;
+    margin-left: 70px;
 }
 
 .stat-value-11-15{
-    color: yellow;
+    color: rgb(255, 0, 0);
     display: inline;
     font-size: large;
     font-weight: 900px;
     position: absolute;
+    margin-left: 70px;
 }
 
 .stat-value-16-20{
@@ -20,8 +22,16 @@
     font-size: large;
     font-weight: 900px;
     position: absolute;
+    margin-left: 70px;
 }
 
 hr{
     opacity: 0.1;
+}
+
+.p-ozellik{
+    width: 120px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 8px;
 }
