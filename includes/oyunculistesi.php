@@ -105,7 +105,7 @@ include "./head.php"
         <div class="card">
           <div class="col-md-2">
             <a href="oyuncubilgisayfa.php">
-              <img src="/img/cristiano-ronaldo-al-nassr-presentation.jpg" width="50" alt="Yüklenemedi">
+              <img src="./img/885.png" width="50" alt="Yüklenemedi">
               <h6 class="d-inline ms-2">Cristiano Ronaldo</h6>
             </a>
           </div>
